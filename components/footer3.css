@@ -41,16 +41,14 @@
  
 .footer3-image1 {
   height: var(--dl-layout-size-large);
+  align-self: center;
 }
  
 .footer3-links {
   gap: var(--dl-layout-space-twounits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
-}
- 
-.footer3-link1 {
-  text-decoration: none;
 }
  
 .footer3-credits {
@@ -71,14 +69,6 @@
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
-}
- 
-.footer3-fragment {
-  display: contents;
-}
- 
-.footer3-text {
-  display: inline-block;
 }
  
 @media(max-width: 991px) {

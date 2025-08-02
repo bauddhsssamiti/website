@@ -189,7 +189,7 @@
   flex-shrink: 0;
 }
  
-.navbar8-page1-image1 {
+.navbar8-page1-image {
   width: 50px;
   height: 50px;
 }
@@ -203,7 +203,7 @@
   flex-direction: column;
 }
  
-.navbar8-page11 {
+.navbar8-page1 {
   font-style: normal;
   font-weight: 600;
 }
@@ -219,7 +219,7 @@
   flex-shrink: 0;
 }
  
-.navbar8-page2-image1 {
+.navbar8-page2-image {
   width: 50px;
   height: 50px;
 }
@@ -233,7 +233,7 @@
   flex-direction: column;
 }
  
-.navbar8-page21 {
+.navbar8-page2 {
   font-style: normal;
   font-weight: 600;
 }
@@ -249,7 +249,7 @@
   flex-shrink: 0;
 }
  
-.navbar8-page3-image1 {
+.navbar8-page3-image {
   width: 50px;
   height: 50px;
 }
@@ -263,7 +263,7 @@
   flex-direction: column;
 }
  
-.navbar8-page31 {
+.navbar8-page3 {
   font-style: normal;
   font-weight: 600;
 }
@@ -279,7 +279,7 @@
   flex-shrink: 0;
 }
  
-.navbar8-page4-image1 {
+.navbar8-page4-image {
   width: 50px;
   height: 50px;
 }
@@ -293,7 +293,7 @@
   flex-direction: column;
 }
  
-.navbar8-page41 {
+.navbar8-page4 {
   font-style: normal;
   font-weight: 600;
 }
@@ -309,154 +309,6 @@
 .navbar8-icon-group {
   gap: var(--dl-layout-space-twounits);
   display: flex;
-}
- 
-.navbar8-container5 {
-  top: 100%;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  animation-name: fadeInDownBig;
-  animation-delay: 0s;
-  justify-content: center;
-  background-color: var(--dl-color-theme-neutral-light);
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
- 
-.navbar8-link5-menu-list {
-  width: 100%;
-  display: grid;
-  padding: var(--dl-layout-space-oneandhalfunits);
-  grid-gap: var(--dl-layout-space-halfunit);
-  max-width: var(--dl-layout-size-maxwidth);
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
- 
-.navbar8-menu-item5 {
-  gap: var(--dl-layout-space-unit);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  padding: var(--dl-layout-space-oneandhalfunits);
-  align-self: stretch;
-  align-items: center;
-  text-decoration: none;
-}
- 
-.navbar8-page1-image2 {
-  width: 30px;
-  height: 30px;
-}
- 
-.navbar8-content5 {
-  display: flex;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.navbar8-page12 {
-  font-style: normal;
-  font-weight: 600;
-}
- 
-.navbar8-menu-item6 {
-  gap: var(--dl-layout-space-unit);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  padding: var(--dl-layout-space-oneandhalfunits);
-  align-self: stretch;
-  align-items: center;
-  text-decoration: none;
-}
- 
-.navbar8-page2-image2 {
-  width: 30px;
-  height: 30px;
-}
- 
-.navbar8-content6 {
-  display: flex;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.navbar8-page22 {
-  font-style: normal;
-  font-weight: 600;
-}
- 
-.navbar8-menu-item7 {
-  gap: var(--dl-layout-space-unit);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  padding: var(--dl-layout-space-oneandhalfunits);
-  align-self: stretch;
-  align-items: center;
-  text-decoration: none;
-}
- 
-.navbar8-page3-image2 {
-  width: 30px;
-  height: 30px;
-}
- 
-.navbar8-content7 {
-  display: flex;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.navbar8-page32 {
-  font-style: normal;
-  font-weight: 600;
-}
- 
-.navbar8-menu-item8 {
-  gap: var(--dl-layout-space-unit);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  padding: var(--dl-layout-space-oneandhalfunits);
-  align-self: stretch;
-  align-items: center;
-  text-decoration: none;
-}
- 
-.navbar8-page4-image2 {
-  width: 30px;
-  height: 30px;
-}
- 
-.navbar8-content8 {
-  display: flex;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.navbar8-page42 {
-  font-style: normal;
-  font-weight: 600;
-}
- 
-.navbar8-container6 {
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: fixed;
-  align-items: flex-start;
-  flex-direction: column;
 }
  
 .navbar8-fragment10 {
@@ -590,9 +442,6 @@
   }
   .navbar8-container4 {
     grid-gap: 0;
-  }
-  .navbar8-link5-menu-list {
-    display: none;
   }
 }
  
