@@ -1,0 +1,238 @@
+.contact2-contact20 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact2-max-width {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact2-section-title {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact2-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact2-text11 {
+  text-align: center;
+}
+ 
+.contact2-row {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.contact2-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact2-contact-info1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact2-content3 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact2-text12 {
+  align-self: stretch;
+  text-align: center;
+}
+ 
+.contact2-email {
+  text-align: center;
+}
+ 
+.contact2-content4 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact2-contact-info2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact2-content5 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact2-text13 {
+  align-self: stretch;
+  text-align: center;
+}
+ 
+.contact2-phone {
+  text-align: center;
+}
+ 
+.contact2-content6 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact2-contact-info3 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact2-content7 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact2-text14 {
+  align-self: stretch;
+  text-align: center;
+}
+ 
+.contact2-address1 {
+  text-align: center;
+}
+ 
+.contact2-content8 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact2-contact-info4 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact2-content9 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact2-text15 {
+  align-self: stretch;
+  text-align: center;
+}
+ 
+.contact2-address2 {
+  text-align: center;
+}
+ 
+.contact2-fragment1 {
+  display: contents;
+}
+ 
+.contact2-text16 {
+  display: inline-block;
+}
+ 
+.contact2-fragment2 {
+  display: contents;
+}
+ 
+.contact2-text17 {
+  display: inline-block;
+}
+ 
+.contact2-fragment3 {
+  display: contents;
+}
+ 
+.contact2-text18 {
+  display: inline-block;
+}
+ 
+.contact2-fragment4 {
+  display: contents;
+}
+ 
+.contact2-text19 {
+  display: inline-block;
+}
+ 
+.contact2-fragment5 {
+  display: contents;
+}
+ 
+.contact2-text20 {
+  display: inline-block;
+}
+ 
+.contact2-fragment6 {
+  display: contents;
+}
+ 
+.contact2-text21 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .contact2-row {
+    flex-direction: column;
+  }
+}
